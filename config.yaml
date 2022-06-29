@@ -1,0 +1,19 @@
+TRAINING:
+      TRAIN_DIR = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets"
+      TEST_DIR = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets"
+      CHECKPOINT_GEN_H = "genh.pth.tar"
+      CHECKPOINT_GEN_Z = "genz.pth.tar"
+      CHECKPOINT_CRITIC_H = "critich.pth.tar"
+      CHECKPOINT_CRITIC_Z = "ctiticz.pth.tar"
+      LOAD_MODEL = True
+      SAVE_MODEL = True
+
+HYPERPARAMS:
+      BATCH_SIZE = 1
+      LEARNING_RATE = 2e-4
+      LAMBDA_IDENTITY = 0.0
+      LAMBDA_CYCLE = 10
+      NUM_WORKERS = 4
+      NUM_EPOCHS = 200
+      
+      
