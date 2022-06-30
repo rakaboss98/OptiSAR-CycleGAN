@@ -1,0 +1,10 @@
+# Creating a seperate AWS YAML File to hide the credentials
+
+CREDENTIALS:
+        ACCESS_KEY: 'AKIAQVSA7EXYBCJRHLR7'
+        SECRET_ACCESS_KEY: 'qk9f31GTfTXWZNzihICMqK1j1mFrYY3vQId3lKpn'
+
+TRAINING_DATA:
+        PATH: '/Users/rakshitbhatt/Documents/GalaxEye /Datasets/archive'
+        BUCKET_NAME: 'sample-datasets-galaxeye'
+        PATH_IN_BUCKET: 'Training Datasets/'

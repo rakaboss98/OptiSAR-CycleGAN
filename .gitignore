@@ -1,2 +1,4 @@
 #Ignore the virtual env in this directory
 venv/
+checkpoints/
+aws.yaml
