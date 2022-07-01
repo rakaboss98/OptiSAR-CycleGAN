@@ -29,3 +29,12 @@ class HorseZebras(Dataset):
         horse_image = np.array(Image.open(horse_path))
 
         return zebra_image, horse_image
+
+# Unit test case for the dataloader
+if __name__ == '__main__':
+    root_horse = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets/gan_data/trainA"
+    root_zebra = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets/gan_data/trainB"
+    test_dataloader = HorseZebras(root_zebra, root_horse)
+    zebra_img, horse_img = test_dataloader.__getitem__(0)
+    print(zebra_img.shape, horse_img.shape)
+    

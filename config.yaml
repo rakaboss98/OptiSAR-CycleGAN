@@ -1,18 +1,18 @@
 TRAINING:
-      TRAIN_DIR = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets"
-      TEST_DIR = "/Users/rakshitbhatt/Documents/GalaxEye /Datasets"
-      CHECKPOINT_GEN_H = "checkpoints/genh.pth.tar"
-      CHECKPOINT_GEN_Z = "checkpoints/genz.pth.tar"
-      CHECKPOINT_CRITIC_H = "checkpoints/critich.pth.tar"
-      CHECKPOINT_CRITIC_Z = "checkpoints/criticz.pth.tar"
-      LOAD_MODEL = True
-      SAVE_MODEL = True
+      TRAIN_DIR: '/Users/rakshitbhatt/Documents/GalaxEye /Datasets/gan_data/'
+      TEST_DIR: '/Users/rakshitbhatt/Documents/GalaxEye /Datasets/gan_data/'
+      CHECKPOINT_GEN_H: 'checkpoints/genh.pth.tar'
+      CHECKPOINT_GEN_Z: 'checkpoints/genz.pth.tar'
+      CHECKPOINT_CRITIC_H: 'checkpoints/critich.pth.tar'
+      CHECKPOINT_CRITIC_Z: 'checkpoints/criticz.pth.tar'
+      LOAD_MODEL: False
+      SAVE_MODEL: True
 
 HYPERPARAMS:
-      BATCH_SIZE = 1
-      LEARNING_RATE = 2e-4
-      LAMBDA_IDENTITY = 0.0
-      LAMBDA_CYCLE = 10
-      NUM_WORKERS = 4
-      NUM_EPOCHS = 200
+      BATCH_SIZE: 1
+      LEARNING_RATE: 0.0002
+      LAMBDA_IDENTITY: 0.0
+      LAMBDA_CYCLE: 10
+      NUM_WORKERS: 4
+      NUM_EPOCHS: 200
       
