@@ -4,3 +4,4 @@ checkpoints/
 aws.yaml
 __pycache__/
 utils/__pycache__/
+.DS_Store
